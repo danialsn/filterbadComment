@@ -1,9 +1,10 @@
 <?php
 
 $bad = [
-    "hi",
-    "he",
-    "wow",
+    "",
+    "",
+    "",
+    //...
 ];
 
 function filter($message): string
@@ -20,5 +21,5 @@ function filter($message): string
     return implode(' ', $output);
 }
 
-echo filter("Hello world here Hi gfdg he gf h he");
+echo filter("");
 
